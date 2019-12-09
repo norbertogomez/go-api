@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders a loading message 1`] = `
+<Component>
+  <main
+    className="App"
+  >
+    <Switch>
+      <Route
+        computedMatch={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        exact={true}
+        location={
+          Object {
+            "hash": "",
+            "key": "xyzzy",
+            "pathname": "/",
+            "search": "",
+          }
+        }
+        path="/"
+      >
+        <h1
+          className="App-heading"
+        >
+          GraphQL Go App
+        </h1>
+        <p
+          className="App-loading"
+        >
+          Loading…
+        </p>
+        <p>
+          Try the 
+          <a
+            href="/client/playground.html"
+          >
+            GraphQL playground
+          </a>
+          !
+        </p>
+      </Route>
+    </Switch>
+  </main>
+</Component>
+`;
+
+exports[`App renders the greeting when loaded 1`] = `
+<Component>
+  <main
+    className="App"
+  >
+    <Switch>
+      <Route
+        computedMatch={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        exact={true}
+        location={
+          Object {
+            "hash": "",
+            "key": "xyzzy",
+            "pathname": "/",
+            "search": "",
+          }
+        }
+        path="/"
+      >
+        <h1
+          className="App-heading"
+        >
+          GraphQL Go App
+        </h1>
+        <p
+          className="App-greeting"
+        >
+          Hello, World!
+           (from GraphQL)
+        </p>
+        <p>
+          Try the 
+          <a
+            href="/client/playground.html"
+          >
+            GraphQL playground
+          </a>
+          !
+        </p>
+      </Route>
+    </Switch>
+  </main>
+</Component>
+`;
